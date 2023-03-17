@@ -1,0 +1,52 @@
+body{
+    
+    background: linear-gradient(190deg, rgba(57,59,62,1) 0%, rgba(98,176,189,1) 61%, rgba(4,172,189,1) 99%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    font-size: 15px;
+    
+}
+.container{
+    background: linear-gradient(190deg, rgba(57,59,62,1) 0%, rgba(98,176,189,1) 61%, rgba(4,172,189,1) 99%);
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .3);
+    text-align: center;
+    padding: 10px;
+    width: 450px;
+    margin: 5px;    
+}
+
+.btn{
+    font-size: 13px;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: aliceblue;
+    background-color: green;
+    cursor: pointer;
+}
+.btn:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+}
+.anime-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid green;
+}
+.anime-name{
+    margin: 20px;
+    background-color: green;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.anime-container{
+    display: none;
+}
